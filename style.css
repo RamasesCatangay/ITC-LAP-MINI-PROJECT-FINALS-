@@ -1,4 +1,3 @@
-/* my css file for the premier league website */
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -12,7 +11,6 @@ header {
     padding: 20px;
 }
 
-/* man city page uses sky blue instead of purple */
 .city-header {
     background-color: #6CABDD;
     color: #1C2C5B;
@@ -68,7 +66,6 @@ td {
     text-align: center;
 }
 
-/* special box for man city stuff */
 .citybox {
     background-color: #dff0fb;
     border: 2px solid #6CABDD;

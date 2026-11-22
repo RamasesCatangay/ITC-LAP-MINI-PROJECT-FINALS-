@@ -1,0 +1,94 @@
+/* my css file for the premier league website */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+header {
+    background-color: #38003c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* man city page uses sky blue instead of purple */
+.city-header {
+    background-color: #6CABDD;
+    color: #1C2C5B;
+}
+
+nav {
+    background-color: #00ff85;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #38003c;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+h2 {
+    color: #38003c;
+}
+
+h3 {
+    color: #333333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #38003c;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* special box for man city stuff */
+.citybox {
+    background-color: #dff0fb;
+    border: 2px solid #6CABDD;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.citybox h2, .citybox h3 {
+    color: #1C2C5B;
+}
+
+.citytable th {
+    background-color: #6CABDD;
+    color: #1C2C5B;
+}
+
+footer {
+    background-color: #38003c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
